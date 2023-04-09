@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* стили для главной страницы */
+
+ul {
+    padding-top: 20px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    font-size: 25px;
+    background-color: #33d9af;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+ul > li:hover {
+    transform: scale(1.1);
+    background-color: #0a8566;
+    transition: all linear 0.3s;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
